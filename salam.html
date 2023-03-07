@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teze.css">
+</head>
+<body>
+    <table>
+        <form>
+            <fieldset>
+              <legend>General Infarmation</legend>
+              Arrival date: <input type="text"><br>
+              <br>
+              Nights: <input type="text">
+              <br>
+              <br>
+              Adults:<input type="number" id="quantity" name="quantity" min="1" max="5">
+              <br>
+              <br>
+              Children: <input type="number" name="quantity" id="quantity" min="1" max="20">
+            </fieldset>
+          </form> 
+          <form>
+              <br>
+              <br>
+            <fieldset>
+              <legend>Preferences</legend>
+              <label for="roomtype">Roomtype:</label>
+              
+              <label for="Standart">
+              <input id="Standart" name="salam" type="radio">
+            Standart</label>
+            <label for="Business" class="merge">Business
+                <input type="radio" name="salam"  id="Business">
+            </label>
+            <label for="Suite" class="suite">Suite
+                <input type="radio" name="salam" id="Suite">
+            </label>
+              <br>
+              <label for="Bed type">Bed type:</label>
+              <label for="King">King
+                  <input type="radio" name="adi" id="King">
+              </label>
+              <label for="Double Double">Double Double
+                  <input type="radio" name="adi" id="Double Double">
+              </label>
+              <br>
+              <label for="Smoking">Smoking</label>
+              <input type="checkbox">
+              
+            </fieldset>
+          </form>
+          <form>
+            <fieldset>
+              <legend>Contact Infarmation</legend>
+              Name: <input type="text"><br>
+              <br>
+              Email: <input type="email"><br>
+              <br>
+              Phone Number: <input type="tel">
+            </fieldset>
+          </form>
+          <br>
+          <input type="submit" value="Submit Reservation">
+
+          <input type="submit" value="clear" class="axrinci">
+        
+
+    </table>
+</body>
+</html>
